@@ -286,7 +286,7 @@ function App() {
               textDecoration: "none",
             }}
           >
-            TUAN ONEPIECE CARD
+            ONE PIECE CARD GAME
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -343,7 +343,7 @@ function App() {
               textDecoration: "none",
             }}
           >
-            TUAN ONEPIECE CARD
+            ONE PIECE CARD GAME
           </Typography>
           <Box
             sx={{
