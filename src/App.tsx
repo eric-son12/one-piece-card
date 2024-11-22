@@ -21,6 +21,7 @@ interface BoxCard {
   imgSrc: string;
   name: string;
   quatity: string;
+  originalPrice: string;
   price: string;
   label: string;
 }
@@ -29,6 +30,7 @@ interface Card {
   imgSrc: string;
   name: string;
   quatity: string;
+  originalPrice: string;
   price: string;
   label: string;
 }
@@ -52,6 +54,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -60,6 +63,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -68,6 +72,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/boosters/prb01/img_thumbnail.png",
       name: "UTA OP06-011",
       quatity: "3",
+      originalPrice: "0",
       price: "600k",
       label: "New",
     },
@@ -76,6 +81,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/boosters/op08/img_thumbnail.png",
       name: "KAIDO OP04-044",
       quatity: "3",
+      originalPrice: "0",
       price: "800k",
       label: "New",
     },
@@ -84,6 +90,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -92,6 +99,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -100,6 +108,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -108,6 +117,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -116,6 +126,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -124,6 +135,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/products/decks/st14/img_thumbnail.png",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -135,6 +147,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p3.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -143,6 +156,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p4.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -151,6 +165,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109_p2.png?241115",
       name: "UTA OP06-011",
       quatity: "3",
+      originalPrice: "0",
       price: "600k",
       label: "New",
     },
@@ -159,6 +174,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-001.png?241115",
       name: "KAIDO OP04-044",
       quatity: "3",
+      originalPrice: "0",
       price: "800k",
       label: "New",
     },
@@ -167,6 +183,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-001_p1.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -175,6 +192,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -183,6 +201,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002_p1.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -191,6 +210,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-003.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -199,6 +219,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002_p1.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -207,6 +228,7 @@ function App() {
         "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-003.png?241115",
       name: "LUFFY OP09-061",
       quatity: "3",
+      originalPrice: "0",
       price: "400k",
       label: "New",
     },
@@ -374,7 +396,12 @@ function App() {
           <Typography
             id="Card Boxs"
             variant="h3"
-            style={{ color: "black", fontWeight: "bold", margin: "32px" }}
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              margin: "32px",
+              fontFamily: "Gulfs",
+            }}
           >
             BOX CARDS
           </Typography>
@@ -390,9 +417,22 @@ function App() {
                       <Typography fontWeight={600} variant="h6">
                         {item.name}
                       </Typography>
-                      <Typography variant="subtitle1">
-                        Số lượng: {item.quatity}
-                      </Typography>
+                      {item.quatity && (
+                        <Typography variant="subtitle1">
+                          Số lượng: {item.quatity}
+                        </Typography>
+                      )}
+                      {item.originalPrice && (
+                        <Typography
+                          fontWeight={600}
+                          color="textDisabled"
+                          variant="caption"
+                          fontStyle="italic"
+                          style={{ textDecoration: "line-through" }}
+                        >
+                          {item.originalPrice}
+                        </Typography>
+                      )}
                       <Typography
                         fontWeight={600}
                         color="success"
@@ -419,7 +459,12 @@ function App() {
           <Typography
             id="Card List"
             variant="h3"
-            style={{ color: "black", fontWeight: "bold", margin: "32px" }}
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              margin: "32px",
+              fontFamily: "Gulfs",
+            }}
           >
             CARD LIST
           </Typography>
@@ -439,9 +484,22 @@ function App() {
                       <Typography fontWeight={600} variant="h6">
                         {item.name}
                       </Typography>
-                      <Typography variant="subtitle1">
-                        Số lượng: {item.quatity}
-                      </Typography>
+                      {item.quatity && (
+                        <Typography variant="subtitle1">
+                          Số lượng: {item.quatity}
+                        </Typography>
+                      )}
+                      {item.originalPrice && (
+                        <Typography
+                          fontWeight={600}
+                          color="textDisabled"
+                          variant="caption"
+                          fontStyle="italic"
+                          style={{ textDecoration: "line-through" }}
+                        >
+                          {item.originalPrice}
+                        </Typography>
+                      )}
                       <Typography
                         fontWeight={600}
                         color="success"
@@ -458,7 +516,12 @@ function App() {
           <Typography
             id="My Bank"
             variant="h3"
-            style={{ color: "black", fontWeight: "bold", margin: "32px" }}
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              margin: "32px",
+              fontFamily: "Gulfs",
+            }}
           >
             MY BANK
           </Typography>
