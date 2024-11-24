@@ -44,6 +44,7 @@
 }
 
 .card-item img {
+  object-fit: contain;
   aspect-ratio: 1/1;
   width: 100%;
   border-top-right-radius: 12px;
@@ -52,6 +53,7 @@
 
 .card-item img.card-img {
   aspect-ratio: 3/4;
+  object-fit: fill;
 }
 
 .card-info {
