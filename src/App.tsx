@@ -549,7 +549,7 @@ function App() {
         ariaLabel="SpeedDial basic example"
         sx={{ position: "fixed", bottom: 86, right: 16, boxShadow: "none" }}
         icon={<img style={{ width: "100%" }} src="/zalo-ico.svg" />}
-        onClick={() => window.open("https://zalo.me/0382300504", "_blank")}
+        onClick={() => window.open("https://zalo.me/0969130312", "_blank")}
       ></SpeedDial>
     </AppBar>
   );
