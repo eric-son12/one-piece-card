@@ -537,15 +537,19 @@ function App() {
       <SpeedDial
         ariaLabel="SpeedDial basic example"
         sx={{ position: "fixed", bottom: 16, right: 16 }}
-        icon={
-          <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" />
-        }
+        icon={<img style={{ width: "100%" }} src="/messenger-ico.svg" />}
         onClick={() =>
           window.open(
             "https://www.facebook.com/profile.php?id=100081458851354",
             "_blank"
           )
         }
+      ></SpeedDial>
+      <SpeedDial
+        ariaLabel="SpeedDial basic example"
+        sx={{ position: "fixed", bottom: 86, right: 16, boxShadow: "none" }}
+        icon={<img style={{ width: "100%" }} src="/zalo-ico.svg" />}
+        onClick={() => window.open("https://zalo.me/0382300504", "_blank")}
       ></SpeedDial>
     </AppBar>
   );
